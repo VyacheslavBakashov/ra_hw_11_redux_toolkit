@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.app {
+  padding: 20px;
+}
+
+.menu-nav {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menu-nav a:first-child {
+  margin-right: 30px;
+}
+
+.menu-nav a.active {
+  color: blue;
+}
+
+.movies-list,
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.movie-preview__img {
+  height: 360px;
+  text-align: center;
+}
